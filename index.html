@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JsCartItem</title>
+  <link rel="stylesheet" href="css/master.css">
+  <script type="text/javascript" src="js/cartItem.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="item one">
+      <img src="img/shirt.jpg" alt="itemShirt" height="80" width="120">
+      <p>Shirt</p>
+      <p><strong>UnitPrice:500</strong></p>
+      <button type="button" name="button" onclick="shirt()">addToCart</button>
+    </div>
+    <div class="item two">
+      <img src="img/pant.jpg" alt="itemShirt" height="80" width="120">
+      <p>Pant</p>
+      <p><strong>UnitPrice:600</strong></p>
+      <button type="button" name="button" onclick="pant()">addToCart</button>
+    </div>
+    <div class="item cart"id="cart" style="display:none;">
+      <table class="cartTable">
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>UnitPrice</th>
+          <th>TotalPrice</th>
+        </tr>
+        <tr id="productShirt">
+        </tr>
+        <tr id="productPant">
+        </tr>
+        <tr id="subTotal">
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

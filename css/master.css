@@ -1,0 +1,34 @@
+body{
+  background-color: white;
+}
+
+.cartTable td{
+  text-align:center;
+}
+
+#wrapper{
+  height:200px;
+  width:800px;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.item{
+  height: 200px;
+  width: 250px;
+  float: left;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.one img{
+  margin-left: 30px;
+}
+
+.two img{
+  margin-left: 30px;
+}
+
+.cart{
+  background-color: white;
+}
